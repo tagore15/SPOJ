@@ -15,7 +15,7 @@ int mx = 1;
 int BIT[51][MAX];
 int N, K;
 
-// x & -x would return last set bit and all other bits ar zero
+// x & -x would return last set bit and all other bits are zero
 int query(int *b, int idx)
 {
     int val = 0;
